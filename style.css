@@ -1,0 +1,78 @@
+html,body
+{
+	font-family:"Raleway", "Helvetica Neue", Arial, sans-serif;
+	color:#333;
+	overflow-y:hidden;
+}
+.slide
+{
+	background:#eee;
+	transition: width 1s;
+	margin: 5% auto;
+	padding:50px;
+	font-size:20;
+	width: 80%;
+	min-height:60%;
+	position: relative;
+	border:1px solid #ddd;
+}
+
+#timeshow, #slide_nmbr
+{
+	float:right;
+	color:#000;
+	text-shadow:
+   -1px -1px 0 #fff,  
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+     1px 1px 0 #fff;
+	margin-right:10px;
+	clear:both;	
+}
+#slide_nmbr
+{
+	float:none;
+}
+#infoloc, #speaker_name
+{
+	float:right;
+	color:#fff;
+	text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+	margin-right:10px;
+	clear:both;	
+	font-size:30;
+}
+.slide h1
+{
+	position:absolute;
+	margin:0;
+	padding:10px;
+	top:0;
+	left:0;
+	right:0;
+	background:#C90A3A;
+	color:#eee;
+}
+.slide:nth-of-type(1)
+{
+	text-align:center;
+}
+.slide:nth-of-type(1) h1
+{
+	position:relative;
+}
+
+.half
+{
+	width:50%;
+	float:left;
+}
+iframe
+{
+	display: block;
+	margin:0 auto;
+}
