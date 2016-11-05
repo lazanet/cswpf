@@ -1,4 +1,4 @@
-title = "test";
+title = "Presentation Name";
 background = "images/bg.jpg";
 info_presentation = "Nedelja Informatike v3.0";
 speaker_name = "Pera Simić";
