@@ -12,7 +12,7 @@ html,body
 	transition:width 0.5s;
 	margin: 5% auto;
 	padding:50px;
-	font-size:20;
+	font-size:20px;
 	width: 80%;
 	min-height:60%;
 	position: relative;
@@ -46,7 +46,7 @@ html,body
      1px 1px 0 #000;
 	margin-right:10px;
 	clear:both;	
-	font-size:20;
+	font-size:20px;
 }
 .slide h1
 {
@@ -81,7 +81,7 @@ iframe
 footer
 {
 	position:fixed;
-	bottom:10;
-	left:10;
-	right:10;
+	bottom:10px;
+	left:10px;
+	right:10px;
 }

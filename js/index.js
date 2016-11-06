@@ -29,7 +29,7 @@ function init()
 		hide_slide(l[i]);
 	document.body.innerHTML+=" <footer><div class='half'><label id='slide_nmbr'></label></div><div class='half'><span id='speaker_name'>"+speaker_name+": <i>"+title+"</i></span> <span id='infoloc'>"+info_presentation+"</span><label id='timeshow'></label></div></footer> ";
 	change_slide(0);
-
+	renderMathInElement(document.body);
 /*<button class='cntrl' onclick='change_slide(-1)'>Prev</button> <button class='cntrl' onclick='change_slide(+1)'>Next</button> */
 }
 

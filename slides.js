@@ -12,6 +12,7 @@ slides = [
 
 "#Test \n\
 proba kako ovo zaista radi \n\
+$$ c = \\pm\\sqrt{a^2 + b^2} $$ \n\
 * test \n\
 * test \n\
 * test \n\
