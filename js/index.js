@@ -1,7 +1,7 @@
 currslide=0;
 function hide_slide(s)
 	{
-		s.style.width=0; s.style.padding=0; s.style.overflow="hidden"; s.style.border="none"; s.style.minHeight=0; s.style.height=0; opacity:0; s.style.margin=0;
+		s.style.width=0; s.style.padding=0; s.style.overflow="hidden"; s.style.border="none"; s.style.minHeight=0; opacity:0; s.style.margin=0; s.style.maxHeight=0;
 	}
 function show_slide(s)
 	{
