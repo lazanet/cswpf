@@ -19,7 +19,7 @@ function setVals()
 function addSlide()
 {
 	saveLocalVals();
-	document.getElementById("main").innerHTML+="<tr><td><textarea class='data' oninput='renderOne("+(cnt++)+")'></textarea></td><td><div class='slide'></div></td></tr>";
+	document.getElementById("main").innerHTML+="<tr><td><textarea class='data' oninput='renderOne("+(cnt++)+")'></textarea></td><td><div class='slide' id='slide"+cnt+"'></div></td></tr>";
 	setVals();
 }
 function loadData(l)

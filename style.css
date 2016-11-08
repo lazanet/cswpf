@@ -60,11 +60,11 @@ html,body
 	background:#C90A3A;
 	color:#eee;
 }
-.slide:nth-of-type(1)
+#slide1
 {
 	text-align:center;
 }
-.slide:nth-of-type(1) h1
+#slide1 h1
 {
 	position:relative;
 }

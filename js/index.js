@@ -23,7 +23,7 @@ function init()
 	document.body.style.backgroundSize="cover";
 	var converter = new showdown.Converter()
 	for (i=0; i<slides.length; i++)
-		document.body.innerHTML +=  "<div class='slide'>" + converter.makeHtml(slides[i]) + "</div> ";		
+		document.body.innerHTML +=  "<div class='slide' id='slide"+(i+1)+"'>" + converter.makeHtml(slides[i]) + "</div> ";		
 	l = document.getElementsByClassName("slide")
 	for (i=1; i<l.length; i++)
 		hide_slide(l[i]);
