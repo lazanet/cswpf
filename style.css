@@ -9,6 +9,7 @@ html,body
 .slide
 {
 	background:#eee;
+	word-wrap: break-word;
 	transition:all 0.5s;
 	margin: 5% auto;
 	padding:50px;
