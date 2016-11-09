@@ -88,3 +88,60 @@ footer
 	left:10px;
 	right:10px;
 }
+
+@media print
+{
+	@page {  
+      	size:297mm 210mm ; 
+	margin: 0;
+    }  
+	html
+	{
+		overflow:auto !important;
+		position: relative !important;
+		width: 297mm !important;
+   		height: 210mm !important; 
+	}
+	body
+	{
+		background:none !important;
+		overflow:visible !important;
+		position: absolute !important;
+		width: 297mm !important;
+		height: 210mm !important;
+		
+	}
+	#timeshow, #slide_nmbr
+	{
+		display:none;
+	}
+	#infoloc, #speaker_name
+	{
+		float:left;
+		color:#999;
+		opacity:.5;
+		text-shadow:none;
+	}
+	footer
+	{
+		top:5mm;
+		left:5mm;
+		bottom:auto;
+		right:auto;
+		width:50%;
+	}
+	.slide
+	{
+	position: relative !important;
+	width:103mm !important;
+	height:60mm !important;
+	min-height:60mm !important;
+	max-height:60mm !important;
+	float:left;
+	margin:2mm !important;
+	/*margin: 5% auto !important;*/
+	padding:2cm !important;
+	font-size:4mm;
+	border:1px solid #ddd !important;
+	}
+}
